@@ -5,6 +5,8 @@ import Landing from "./Pages/Landing.js";
 import Create from "./Pages/Create.js";
 import Recipe from "./Pages/Recipe.js";
 
+import { loader } from "./Pages/Recipe.js";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +23,7 @@ const router = createBrowserRouter([
       {
         path: "recipes/:id",
         element: <Recipe />,
+        loader: loader,
       },
     ],
   },

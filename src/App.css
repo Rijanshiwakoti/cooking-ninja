@@ -1,3 +1,13 @@
 .App {
   min-height: 100%;
 }
+.page-title {
+  text-align: center;
+  margin: 40px auto;
+  color: #333;
+}
+.loader,
+.error {
+  text-align: center;
+  margin: 40px auto;
+}
